@@ -1,0 +1,8 @@
+Ejercicio 01 : ft_strncpy
+Funciones autorizadas: Ninguna
+
+• Reproduce el comportamiento de la función strncpy (man strncpy)
+
+• El prototipo de la función deberá ser el siguiente:
+
+  char *ft_strncpy(char *dest, char *src, unsigned int n);
