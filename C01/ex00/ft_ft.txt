@@ -1,0 +1,8 @@
+Ejercicio 00 : ft_ft
+Funciones autorizadas: Ninguna
+
+• Escribe una función que reciba como parámetro un puntero a un int y dé al int el valor 42.
+
+• El prototipo de la función deberá ser el siguiente:
+  
+  void ft_ft(int *nbr);
