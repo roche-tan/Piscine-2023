@@ -1,0 +1,10 @@
+Ejercicio 04 : ft_ultimate_div_mod
+Funciones autorizadas: Ninguna
+
+• Escribe una función ft_ultimate_div_mod que tenga el prototipo siguiente:
+
+  void ft_ultimate_div_mod(int *a, int *b);
+
+• Esta función divide los int apuntados por a y b.
+  El resultado de la división se almacena en el int apuntado por a.
+  El resultado del resto de la división se almacena en el int apuntado por b
