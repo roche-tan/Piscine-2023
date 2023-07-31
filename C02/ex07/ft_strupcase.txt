@@ -1,0 +1,10 @@
+Ejercicio 07 : ft_strupcase
+Funciones autorizadas: Ninguna
+
+• Crea una función que ponga cada letra en mayúscula.
+
+• El prototipo de la función deberá ser el siguiente:
+
+  char *ft_strupcase(char *str);
+
+• Deberá devolver str.
