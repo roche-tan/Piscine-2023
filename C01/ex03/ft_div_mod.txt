@@ -1,0 +1,9 @@
+Ejercicio 03 : ft_div_mod
+Funciones autorizadas: Ninguna
+
+• Escribe una función ft_div_mod que tenga el prototipo siguiente:
+  
+  void ft_div_mod(int a, int b, int *div, int *mod);
+
+• Esta función divide los dos parámetros a y b y almacena el resultado en el int apuntado por div.
+  También almacena el resto de la división de a y b en el int apuntado por mod.
