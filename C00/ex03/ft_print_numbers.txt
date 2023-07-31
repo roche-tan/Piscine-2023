@@ -1,0 +1,7 @@
+Ejercicio 03: ft_print_numbers
+Funciones autorizadas: write
+
+• Escribe una función que muestre, en una sola línea y en orden creciente, todos los dígitos.
+• El prototipo de la función deberá ser el siguiente:
+  
+  void ft_print_numbers(void);
