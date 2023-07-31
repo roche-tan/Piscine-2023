@@ -1,0 +1,12 @@
+Ejercicio 02 : ft_putnbr
+Funciones autorizadas: write
+
+• Escribe una función que muestre un número pasado como parámetro. La función deberá ser capaz de mostrar todos los valores posibles en una variable de tipo int.
+
+• El prototipo de la función deberá ser el siguiente:
+
+  void ft_putnbr(int nb);
+
+• Por ejemplo:
+  
+  ◦ ft_putnbr(42) muestra “42”.
