@@ -1,0 +1,10 @@
+Ejercicio 02 : ft_str_is_alpha
+Funciones autorizadas: Ninguna
+
+• Crea una función que devuelva 1 si el string usado como parámetro contiene únicamente caracteres alfabéticos y devuelva 0 si contiene otro tipo de caracteres.
+
+• El prototipo de la función deberá ser el siguiente:
+
+  int ft_str_is_alpha(char *str);
+
+• Tendrá que devolver 1 si str es un string vacío.
