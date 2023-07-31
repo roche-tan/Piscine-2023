@@ -1,0 +1,10 @@
+Ejercicio 08 : ft_strlowcase
+Funciones autorizadas: Ninguna
+
+• Crea una función que ponga cada letra en minúscula.
+
+• El prototipo de la función deberá ser el siguiente:
+
+  char *ft_strlowcase(char *str);
+
+• Deberá devolver str.

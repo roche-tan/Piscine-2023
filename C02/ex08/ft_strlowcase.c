@@ -1,26 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strupcase.c                                     :+:      :+:    :+:   */
+/*   ft_strlowcase.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rosabari <rosabari@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/18 18:05:08 by rosabari          #+#    #+#             */
-/*   Updated: 2023/07/20 17:26:40 by rosabari         ###   ########.fr       */
+/*   Created: 2023/07/18 19:14:05 by rosabari          #+#    #+#             */
+/*   Updated: 2023/07/20 17:26:53 by rosabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
 
-char	*ft_strupcase(char *str)
+char	*ft_strlowcase(char *str)
 {
 	int	i;
 
 	i = 0;
 	while (str[i] != '\0')
 	{
-		if (str[i] >= 'a' && str[i] <= 'z')
+		if (str[i] >= 'A' && str[i] <= 'Z')
 		{
-			str[i] -= 32;
+			str[i] += 32;
 		}
 		i++;
 	}
@@ -29,8 +29,8 @@ char	*ft_strupcase(char *str)
 
 int main()
 {
-	char a[] = "hola mundo";
+	char a[] = "HOLA MUNDO";
 	
-	printf("%s\n", ft_strupcase(a));
+	printf("%s\n", ft_strlowcase(a));
 	return (0);
 } 
