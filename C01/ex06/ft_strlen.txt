@@ -1,0 +1,8 @@
+Ejercicio 06 : ft_strlen
+Funciones autorizadas: Ninguna
+
+• Escribe una función que cuente el número de caracteres de un string y que devuelva el número encontrado.
+
+• El prototipo de la función deberá ser el siguiente:
+
+  int ft_strlen(char *str);
