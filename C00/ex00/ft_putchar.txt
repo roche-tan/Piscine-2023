@@ -2,6 +2,7 @@ Ejercicio 00: ft_putchar
 Funciones autorizadas: write
 
 • Escribe una función que muestre el carácter usado como parámetro.
+
 • El prototipo de la función deberá ser el siguiente:
   
   void ft_putchar(char c);

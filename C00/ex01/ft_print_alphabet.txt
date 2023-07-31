@@ -2,6 +2,7 @@ Ejercicio: 01 ft_print_alphabet
 Funciones autorizadas: write
 
 • Escribe una función que muestre el alfabeto en minúsculas en una sola línea, en orden creciente, empezando en la letra “a”.
+
 • El prototipo de la función deberá ser el siguiente:
 
   void ft_print_alphabet(void);
