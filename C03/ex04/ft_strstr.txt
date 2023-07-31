@@ -1,0 +1,8 @@
+Ejercicio 04 : ft_strstr
+Funciones autorizadas: Ninguna
+
+• Reproduce el comportamiento de la función strstr (man strstr).
+
+• El prototipo de la función deberá ser el siguiente:
+  
+  char *ft_strstr(char *str, char *to_find);
