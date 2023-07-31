@@ -1,0 +1,25 @@
+Ejercicio 03 : ft_atoi
+Funciones autorizadas: Ninguna
+
+• Escribe una función que convierta el principio del string apuntado por str en un entero de tipo int
+
+• str puede empezar con un número arbitrario de espacios (tal y como lo define isspace(3))
+
+• str puede ir seguido de un número arbitrario de signos + y de signos -. El signo - hará cambiar el signo del entero devuelto en función del número de signos - y si este es par o impar.
+
+• str puede ir seguido de cualquier cantidad de númerod de dígitos en base 10
+
+• Tu función tendrá que leer los caracteres de str, siempre que estos cumplan con las reglas mencionadas anteriormente, y tendrá que devolver el número encontrado hasta entonces.
+
+• No deberías tener en cuenta los desbordamientos (overflows y underflows), en estos casos el resultado se considera indefinido.
+
+• Puedes comparar tu función con la verdadera función atoi, quitando la parte de los signos y del overflow.
+
+• Aquí tienes el ejemplo de un programa que muestra el valor devuelto por atoi:
+  
+  $>./a.out " ---+--+1234ab567"
+  -1234
+
+• El prototipo de la función deberá ser el siguiente:
+  
+  int ft_atoi(char *str);
