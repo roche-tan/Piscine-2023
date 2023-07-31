@@ -1,44 +1,46 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
+/*   ft_strncat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rosabari <rosabari@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/23 20:00:59 by rosabari          #+#    #+#             */
-/*   Updated: 2023/07/25 19:38:50 by rosabari         ###   ########.fr       */
+/*   Created: 2023/07/23 20:02:08 by rosabari          #+#    #+#             */
+/*   Updated: 2023/07/25 19:40:09 by rosabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
 #include <string.h>
 
-char	*ft_strcat(char *dest, char *src)
+char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
 	char	*final;
 
 	final = dest;
 	while (*final != '\0')
 		final++;
-	while (*src != '\0')
+	while (*src != '\0' && nb > 0)
 	{
 		*final = *src;
-		final++;
+		final ++;
 		src++;
+		nb --;
 	}
 	*final = '\0';
 	return (dest);
 }
 
-int	main(void)
+int	main()
 {
-	char	dest[50] = "Hola";
-	char src[50] = "Mundo";
-  char	dest1[50] = "Hola";
-	char src1[50] = "Mundo";
+	char	dest[20] = "Hola";
+	char 	src[] = "Mundo";
+  char	dest1[20] = "Hola";
+	char 	src1[] = "Mundo";
+	int	nb = 3;
 
-	char *res = ft_strcat(dest, src);
-	char *res1 = strcat(dest1, src1);
-  printf("El resultado de la funcion replicada es: %s\n", res);
+	char *res = ft_strncat(dest, src, nb);
+	char *res1 = strncat(dest1, src1, nb);
+	printf("El resultado de la funcion replicada es: %s\n", res);
   printf("El resultado de la funcion automatica es: %s\n", res1);
-  return 0;
+	return (0);
 }

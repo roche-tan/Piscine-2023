@@ -1,0 +1,8 @@
+Ejercicio 03 : ft_strncat
+Funciones autorizadas: Ninguna
+
+• Reproduce el comportamiento de la función strncat (man strncat).
+
+• El prototipo de la función deberá ser el siguiente:
+  
+  char *ft_strncat(char *dest, char *src, unsigned int nb);

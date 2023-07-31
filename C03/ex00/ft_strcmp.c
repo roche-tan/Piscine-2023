@@ -9,8 +9,8 @@
 /*   Updated: 2023/07/25 19:36:51 by rosabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include <stdio.h>
+#include <string.h>
 
 int	ft_strcmp(char *s1, char *s2)
 {
@@ -26,9 +26,13 @@ int	main(void)
 {
 	char	s1[] = "Hola que tal";
 	char	s2[] = "Hola";
+	char	s3[] = "Hola que tal";
+	char	s4[] = "Hola";
 	int	n;
 
-	n = ft_strcmp(s1, s2);
-	printf("%d", n);
+	char res = ft_strcmp(s1, s2);
+	char res1 = strcmp(s3, s4);
+	printf("%d\n", res);
+	printf("%d\n", res1);
 	return (0);
 }
