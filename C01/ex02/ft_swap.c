@@ -1,31 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rosabari <rosabari@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rosabari <rosabari@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/06 17:59:10 by rosabari          #+#    #+#             */
-/*   Updated: 2023/07/07 13:58:23 by rosabari         ###   ########.fr       */
+/*   Created: 2023/07/11 12:28:33 by rosabari          #+#    #+#             */
+/*   Updated: 2023/07/12 15:33:41 by rosabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+#include <stdio.h>
 
-void	ft_is_negative(int n)
+void	ft_swap(int *a, int *b)
 {
-	if (n >= 0)
-	{
-		write (1, "P", 1);
-	}
-	else
-	{
-		write (1, "N", 1);
-	}
+	int	z;
+
+	z = *a;
+	*a = *b;
+	*b = z;
 }
 
-int main(void)
+int	main()
 {
-  int n = 4;
- 	ft_is_negative(n)
-  return (0);
+	int	x;
+	int	y;
+	
+	x = 2;
+	y = 3;
+	ft_swap(&x, &y);
+	printf("%d \n", x);
+	printf("%d", y);
 }
